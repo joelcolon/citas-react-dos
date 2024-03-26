@@ -1,0 +1,50 @@
+#root {
+  max-width: px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.nuevo-evento {
+display: flex;
+gap:16px;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+input{
+  padding: 10px;
+  width: 200px;
+  border-radius: 10PX;
+  border: 2px solid black;
+}
+
+
+input:hover {
+  filter: drop-shadow(0 0 1em #404af6);
+  border: 2px solid #1822de8c;
+
+}
+
+textarea{
+  font-weight: 500;
+  padding: 10px;
+  color: #fbfbfb;
+  border:2px solid black;
+  border-radius: 10px;
+}
+button {
+  font-weight: 500;
+  padding: 10px;
+  color: #fbfbfb;
+  border:2px solid black;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: #f2f2f2;
+  filter: drop-shadow(0 0 1em #404af6);
+  border: 2px solid #1822de8c;
+  background-color: #3740e2;
+}
+
